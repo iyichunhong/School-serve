@@ -1,0 +1,95 @@
+/*左部样式*/
+@CHARSET "UTF-8";
+.title-left{
+	border-radius:10px;
+	border:1px solid #74adaa;
+	width:180px;
+	height:200px;
+	background:#74adaa;
+	line-height:15px;
+	position:absolute;
+	left:100px;
+	top:150px;
+
+}
+
+.schedule{
+	border-radius:10px;
+	border:1px solid #74adaa;
+	width:180px;
+	height:200px;
+	background:#74adaa;
+	line-height:15px;
+	position:absolute;
+	left:100px;
+	top:370px;
+}
+
+.gonggao1{
+	width:18px;
+	height:18px;
+	float:left;
+}
+
+.h1{
+	float:center;
+	font-family:"宋体";
+	font-style:oblique;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:20px;
+}
+
+.h2{
+	font-family:"宋体";
+	font-size:15px;
+	font-style:normal;
+	font-weight:normal;
+	color:ffffff;
+}
+
+.content{
+	font-size:18px;
+	color:#ffffff;
+	
+}
+
+/*.form{
+	border-radius:10px;
+	width:500px;
+	height:500px;
+	border:1px solid #74adaa;
+}*/
+
+a{
+	text-decoration:none;
+}
+
+.inputcss {  
+    font-size: 9pt; 
+    color: #003399; 
+    font-family: "宋体"; 
+    font-style: normal; 	
+    border-color: #93BEE2 #93BEE2 #93BEE2 #93BEE2 ; 
+    border: 1px #93BEE2 solid; 
+}
+
+.classroom-ok{
+	border-radius:10px;
+	border:1px solid #74adaa;
+	width:200px;
+	height:200px;
+	background:#ffffff;
+	margin:0 auto;
+	float:center;
+	line-height:25px;
+}
+
+.submit{
+    margin-left: 100px;
+}
+.submit,.reset{
+    border: 0;
+    background: #ffffff;
+    border-radius: 5px;
+}

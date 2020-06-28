@@ -1,0 +1,23 @@
+/*ÓÒ²¿ÑùÊ½*/
+@CHARSET "UTF-8";
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+.private2{
+	border-radius:10px;
+	background-color:#74adaa;
+	border:0px;
+	position:absolute;
+	top:380px;
+	left:1045px;
+	width:200px;
+	height:200px;
+}
+
+.private2-font{
+	position:absolute;
+	left:5px;
+}

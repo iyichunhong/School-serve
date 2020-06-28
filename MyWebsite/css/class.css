@@ -1,0 +1,29 @@
+/*ÓÒ²¿ÑùÊ½*/
+@CHARSET "UTF-8";
+
+.classb
+{
+	border-radius:10px;
+	position: absolute;        	
+   	top:160px;        	
+   	left:1045px;
+   	color:#74adaa;
+   	background-color:#74adaa;
+   	width:200px;
+   	heiht:400px;
+
+	}
+.classb:hover
+	{
+	cursor: pointer;
+	color:black;
+	}
+
+a
+{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+	
+	

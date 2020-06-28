@@ -1,3 +1,4 @@
+/*字体样式*/
 @CHARSET "UTF-8";
 A:link {
 	COLOR: #006699; TEXT-DECORATION: none
@@ -19,7 +20,7 @@ TD,TH {
 	FONT-SIZE:12px; COLOR: #006699;
 }
 .buttoncss {
-    font-family: "Tahoma", "瀹嬩綋";
+    font-family: "Tahoma", "宋体";
     font-size: 15pt; color: #003399;
     border: 5px #003399 solid;
     color:006699;
@@ -36,7 +37,7 @@ TD,TH {
 	resize:none;
     font-size: 8pt; 
     color: #003399; 
-    font-family: "瀹嬩綋"; 
+    font-family: "宋体"; 
     font-style: normal; 	
     border-color: #93BEE2 #93BEE2 #93BEE2 #93BEE2 ; 
     border: 5px #93BEE2 solid; 
@@ -44,7 +45,7 @@ TD,TH {
 .inputcssnull {  
     font-size: 9pt; 
     color: #003399; 
-    font-family: "瀹嬩綋"; 
+    font-family: "宋体"; 
     font-style: normal; 	
     border: 0px #93BEE2 solid; 
 }
