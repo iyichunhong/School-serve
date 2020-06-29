@@ -1,11 +1,57 @@
-/*右部样式*/
+/*个人中心样式*/
 @CHARSET "UTF-8";
 
 a{
-	color:white;
+	color:#74adaa;
 	text-decoration:none;
 }
 
+
+.private-top{
+	background-color:#74adaa;
+	border:0px;
+	position:absolute;
+	width:100%;
+	height:15%;
+}
+
+.private-font{
+	position:absolute;
+	left:50%;
+	top:15%;
+	font-weight:bold;
+	font-size:32px;
+}
+
+.private{
+	border-radius:10px;
+	background-color:#edecec;
+	border:0px;
+	position:absolute;
+	top:16%;
+	left:3%;
+	width:30%;
+	height:40%;
+}
+.private-img{
+	border-radius:10px;
+	background-color:#edecec;
+	border:0px;
+	position:absolute;
+	width:30%;
+	height:100%;
+}
+
+.private-msg{
+	border-radius:10px;
+	background-color:#edecec;
+	border:0px;
+	position:absolute;
+	top:10%;
+	left:30%;
+	width:70%;
+	height:90%;
+}
 .private2{
 	border-radius:10px;
 	background-color:#74adaa;
@@ -17,7 +63,47 @@ a{
 	height:200px;
 }
 
+.private2-calendar{
+	background-color:#74adaa;
+	border:0px;
+	position:absolute;
+	top:60%;
+	width:40%;
+	height:40%;
+}
+
 .private2-font{
 	position:absolute;
 	left:5px;
+}
+
+.private1{
+	background-color:#74adaa;
+	border:0px;
+	position:absolute;
+	top:15%;
+	left:40%;
+	height:85%;
+	width:60%;
+}
+
+.private1-font{
+	border-radius:10px;
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+	position:absolute;
+	left:40px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.frame{
+	border-radius:10px;
+	background-color:#edecec;
+	border:1px solid #ffffff;
+	position:absolute;
+	left:5%;
+	top:20%;
+	width:700px;
+	height:450px;
 }
