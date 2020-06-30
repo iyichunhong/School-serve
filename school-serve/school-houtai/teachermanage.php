@@ -29,17 +29,20 @@
                                 <table height="90%">
                                     <tr>
                                         <td width="100" align="center" colspan="2"><img src="Images/3.png" /></td>
-                                        <td valign="bottom" colspan="3" bgcolor="#F7F8F9"><h3 style="letter-spacing:1px;">在这里，您可以根据您的需求，修改网站参数！</h3></td>
+                                        <td valign="bottom" colspan="7" bgcolor="#F7F8F9"><h3 style="letter-spacing:1px;">在这里，您可以根据您的需求，修改网站参数！</h3></td>
                                     </tr>
     
                         <!-- 添加栏目开始 -->
                         <tr bgcolor="#74adaa" >
-                                                        <th class="w">名字</th>
-                                                        <th width="70px" class="w">学号</th>
-                                                        <th width="80px" class="w">余额</th>
-                                                        <th width="50px" class="w">下线充值点</th>
-                                                        <th width="70px" class="w">操作</th>
-                                                       
+                                                        <th class="w">老师姓名</th>
+                                                        <th width="70px" class="w">老师所属学院</th>
+                                                        <th width="80px" class="w">老师性别</th>
+                                                        <th width="50px" class="w">学历</th>
+                                                        <th width="50px" class="w">学位</th>
+                                                        <th class="w">电话</th>
+                                                        <th class="w">qq</th>
+                                                        <th class="w">经历</th>
+                                                         <th class="w" width="80px">操作</th>
                                                         
                                                     </tr>
                                                     
@@ -49,7 +52,7 @@
 													mysqli_query($link,'set names utf8'); 
 
 													$Page_size=3; 
-													$result=mysqli_query($link,"select * from tb_card"); 
+													$result=mysqli_query($link,"select * from tb_teacher"); 
 													$count = mysqli_num_rows($result); 
 													$page_count = ceil($count/$Page_size); 
 
@@ -66,7 +69,7 @@
 													} 
 
 													$offset=$Page_size*($page-1); 
-													$sql="select * from tb_card limit $offset,$Page_size";
+													$sql="select * from tb_teacher limit $offset,$Page_size";
 													$result=mysqli_query($link,$sql); 
 													while ($row=mysqli_fetch_array($result)) { 
 ?> 
@@ -75,17 +78,27 @@
 <?php echo $row['name']?> 
 </div></td> 
 <td bgcolor="#E0EEE" ><div align="center"> 
-<?php echo $row['studentID']?> 
+<?php echo $row['college']?> 
 </div></td> 
 <td bgcolor="#E0EEE"><div align="center"> 
-<?php echo $row['balance']?> 
+<?php echo $row['sex']?> 
 </div></td> 
 <td bgcolor="#E0EEE"><div align="center"> 
-<?php echo $row['offline']?> 
+<?php echo $row['xueli']?> 
 </div></td> 
-
-<td bgcolor="#E0EEE"><a href="shanchucard.php?name=<?php echo $row['name'];?> & studentID=<?php echo $row['studentID'];?>">删除</a> &nbsp;&nbsp;
-
+<td bgcolor="#E0EEE"><div align="center"> 
+<?php echo $row['xuewei']?> 
+</div></td> 
+<td bgcolor="#E0EEE"><div align="center"> 
+<?php echo $row['tel']?> 
+</div></td>
+<td bgcolor="#E0EEE"><div align="center"> 
+<?php echo $row['qq']?> 
+</div></td>  
+<td bgcolor="#E0EEE"><div align="center"> 
+<?php echo $row['expeirnce']?> 
+</div></td> 
+<td bgcolor="#E0EEE"><a href="shanchu.php?name=<?php echo $row['name'];?> & college=<?php echo $row['college'];?>">删除</a> &nbsp;&nbsp;
 </tr> 
 <?php 
 } 
